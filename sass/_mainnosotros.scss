@@ -1,0 +1,19 @@
+/*Estilos Main Nosotros*/
+.nosotros{
+    min-height: 400px;
+    & .container{
+        background: transparent;
+        & .row{
+            & .n-left{
+                text-justify: auto;
+            }
+            & .n-right{
+                height: 580px;
+                background-image: url(../img/nosotros.jpg);
+                background-size: cover;
+            }      
+        }
+    }
+}
+
+
